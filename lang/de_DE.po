@@ -11268,7 +11268,7 @@ msgid "singledash:"
 msgstr ""
 
 msgid "ietf:"
-msgstr ""
+msgstr "ietf"
 
 msgid "cisco:"
 msgstr "Cisco:"
@@ -11379,7 +11379,7 @@ msgid "A file with the name '%s' already exists."
 msgstr "Eine Datei mit dem Namen '%s' existiert bereits."
 
 msgid "The total size of all files uploaded may not exceed "
-msgstr ""
+msgstr "Die Gesamtgröße aller hochgeladenen Dateien darf nicht überschritten werden."
 
 msgid "add file"
 msgstr "Datei hinzufügen"
@@ -11468,13 +11468,13 @@ msgid "Bandwidth up"
 msgstr "Bandbreite Upload"
 
 msgid "Enter a upload limit to be enforced on this IP address in Kbit/s"
-msgstr ""
+msgstr "Geben Sie ein Upload-Limit für diese IP-Adresse in Kbit/s an"
 
 msgid "Bandwidth down"
 msgstr "Bandbreite Download"
 
 msgid "Enter a download limit to be enforced on this IP address in Kbit/s"
-msgstr ""
+msgstr "Geben Sie ein Download-Limit für diese IP-Adresse in Kbit/s an"
 
 msgid "No entry exists yet!"
 msgstr "Es existiert noch kein Eintrag!"
@@ -11599,8 +11599,7 @@ msgid "# of Bits to store Ticket Id needs to be between 1..16."
 msgstr "# der Bits u die Ticket-Id zu speichern, muss zwischen 1 und 16 liegen."
 
 msgid "# of Bits to store checksum needs to be between 1..31."
-msgstr ""
-"# der Bits umd die Prüfsumme zu speichern, muss zwischen 1 und 31 liegen"
+msgstr "# der Bits umd die Prüfsumme zu speichern, muss zwischen 1 und 31 liegen"
 
 msgid "This doesn't look like an RSA Public key."
 msgstr "Das sieht nicht wie ein öffentlicher RSA-Schlüssel aus."
@@ -11609,8 +11608,7 @@ msgid "This doesn't look like an RSA Private key."
 msgstr "Das sieht nicht wie ein privater RSA-Schlüssel aus."
 
 msgid "You cannot sync the voucher database to this host (itself)."
-msgstr ""
-"Sie können die Voucher Datenbank nicht zum Eigenen Host synchronisieren."
+msgstr "Sie können die Voucher Datenbank nicht zum Eigenen Host synchronisieren."
 
 msgid "add voucher"
 msgstr "Voucher hinzufügen"
@@ -11870,7 +11868,8 @@ msgstr ""
 
 msgid ""
 "The gateway address %s does not lie within the chosen interface's subnet."
-msgstr ""
+msgstr ""Die Gateway-Adresse %s liegt nicht innerhalb des gewählten Schnittstellen Subnetz.
+"
 
 msgid ""
 "A valid IP address must be specified for the primary/secondary DNS servers."
@@ -11892,7 +11891,7 @@ msgid ""
 msgstr ""
 
 msgid "A valid domain name must be specified for the dynamic DNS registration."
-msgstr ""
+msgstr "Für die dynamische DNS-Registrierung muss ein gültiger Domänenname angegeben werden."
 
 msgid ""
 "A valid primary domain name server IP address must be specified for the "
@@ -11900,10 +11899,10 @@ msgid ""
 msgstr ""
 
 msgid "You must specify both a valid domain key and key name."
-msgstr ""
+msgstr "Sie müssen einen gültigen Domänennamen mit Schlüssel und die Schlüsselnamen angeben."
 
 msgid "A valid domain search list must be specified."
-msgstr ""
+msgstr "Eine gültige Domänensuchliste muss angegeben werden."
 
 msgid ""
 "If you specify a mac allow list, it must contain only valid partial MAC "
@@ -11917,10 +11916,11 @@ msgstr ""
 
 msgid ""
 "A valid IP address must be specified for the primary/secondary NTP servers."
-msgstr ""
+msgstr "Eine gültige IP-Adresse muss für den primären/sekundären NTP-Server angegeben werden."
 
 msgid "A valid domain name must be specified for the DNS domain."
-msgstr ""
+msgstr "Ein gültiger Domänenname muss für die DNS-Domäne angegeben werden.
+"
 
 msgid "A valid IP address or hostname must be specified for the TFTP server."
 msgstr ""
@@ -11977,13 +11977,14 @@ msgid ""
 msgstr ""
 
 msgid "IP address or host type must be an IP address or host name."
-msgstr ""
+msgstr "IP-Adresse oder Host-Typ muss eine IP-Adresse oder ein Host-Name sein."
 
 msgid "The specified range lies outside of the current subnet."
-msgstr ""
+msgstr "Der angegebene Bereich liegt außerhalb des aktuellen Subnetzes."
 
 msgid "The range is invalid (first element higher than second element)."
-msgstr ""
+msgstr "
+Der Bereich ist ungültig (erstes Element höher als zweites Element)"
 
 msgid ""
 "The specified range must not be within the DHCP range for this interface."
@@ -12178,7 +12179,7 @@ msgid ""
 msgstr ""
 
 msgid "Show Dynamic DNS"
-msgstr ""
+msgstr "Dynamisches DNS anzeigen"
 
 msgid "Enable registration of DHCP client names in DNS."
 msgstr ""
@@ -12209,7 +12210,7 @@ msgid "MAC Address Control"
 msgstr "MAC-Adressensteuerung"
 
 msgid "Show MAC Address Control"
-msgstr ""
+msgstr "Zeige MAC-Adressensteuerung"
 
 msgid ""
 "Enter a list of partial MAC addresses to allow, comma separated, no spaces, "
@@ -12272,9 +12273,8 @@ msgstr "und den UEFI 32 Bit Dateinamen "
 msgid "and the UEFI 64bit filename  "
 msgstr "und den UEFI 64 Bit Dateinamen "
 
-msgid ""
-"Note: You need both a filename and a boot server configured for this to work!"
-msgstr ""
+msgid "Note: You need both a filename and a boot server configured for this to work!"
+msgstr "Hinweis: Sie benötigen einen Dateinamen und einen konfigurierten Boot-Server, für diese Arbeit!"
 
 msgid ""
 "You will need all three filenames and a boot server configured for UEFI to "
@@ -12285,7 +12285,7 @@ msgid "Enter the"
 msgstr "Gib die"
 
 msgid "root-path"
-msgstr ""
+msgstr "root-Pfad"
 
 msgid "string"
 msgstr "Zeichenkette"
@@ -12419,7 +12419,7 @@ msgid "DHCP Relay configuration"
 msgstr "DHCP Relay Konfiguration"
 
 msgid "Enable DHCP relay on interface"
-msgstr ""
+msgstr "Aktiviere das DHCP-Relay auf der Schnittstelle"
 
 msgid "Append circuit ID and agent ID to requests"
 msgstr ""
@@ -12789,7 +12789,7 @@ msgid "A valid domain must be specified in alias list."
 msgstr "Eine gültige Domain muss in der Aliasliste spezifiziert werden."
 
 msgid "This host/domain already exists."
-msgstr ""
+msgstr "Dieser Host/Domäne ist bereits vorhanden."
 
 msgid "Edit host"
 msgstr "Host bearbeiten"
@@ -12801,7 +12801,7 @@ msgid "Name of the host, without domain part"
 msgstr "Name des Hosts ohne Domainteil"
 
 msgid "myhost"
-msgstr ""
+msgstr "myhost"
 
 msgid "Domain of the host"
 msgstr "Domain des Hosts"
@@ -12863,7 +12863,7 @@ msgid "yes"
 msgstr "ja"
 
 msgid "Interface to monitor"
-msgstr ""
+msgstr "Schnittstelle überwachen"
 
 msgid "Interface to send update from"
 msgstr ""
@@ -12958,10 +12958,10 @@ msgstr ""
 
 msgid ""
 "If you need the new IP to be included in the request, put %IP% in its place."
-msgstr ""
+msgstr "Soll die neue IP in der Anforderung enthalten sein, setzen Sie %IP% an seine Stelle."
 
 msgid "Result Match"
-msgstr ""
+msgstr "Ergebniss stimmt überein"
 
 msgid "This field is only used by Custom Dynamic DNS Entries."
 msgstr ""
@@ -18066,16 +18066,16 @@ msgstr ""
 "gerade von der Firewall verwendet wird."
 
 msgid "A valid remote start address must be specified."
-msgstr ""
+msgstr "Eine gültige "remote" Startadresse muss angegeben werden"
 
 msgid "A valid RADIUS server address must be specified."
 msgstr "Eine gültige RADIUS-Serveradresse muss spezifiziert werden."
 
 msgid "The specified server address lies in the remote subnet."
-msgstr ""
+msgstr "Die angegebene Server-Adresse liegt in dem entfernten Subnetz"
 
 msgid "The specified server address is equal to the LAN interface address."
-msgstr ""
+msgstr "Die angegebene Server-Adresse ist gleich wie die Adresse der LAN-Schnittstelle"
 
 msgid "Configuration"
 msgstr "Konfiguration"
@@ -18115,7 +18115,7 @@ msgid "is ten L2TP clients"
 msgstr ""
 
 msgid "Secret"
-msgstr ""
+msgstr "Geheimnis"
 
 msgid ""
 "Specify optional secret shared between peers. Required on some "
@@ -18213,7 +18213,8 @@ msgstr ""
 
 msgid ""
 "If you want the user to be assigned a specific IP address, enter it here."
-msgstr ""
+msgstr "
+Wenn der Benutzer eine bestimmte IP-Adresse zugewiesen werden soll, geben Sie ihn hier ein."
 
 msgid ""
 "Protocol and IP address families do not match. You cannot select an IPv6 "
@@ -18343,7 +18344,7 @@ msgid "Proxy host or address"
 msgstr "Proxy Host oder Adresse"
 
 msgid "Proxy port"
-msgstr "Proxy port"
+msgstr "Proxy Port"
 
 msgid "Proxy authentication extra options"
 msgstr "Extraoptionen der Proxyauthentifizierung"
@@ -18387,7 +18388,7 @@ msgid "Automatically generate a shared TLS authentication key"
 msgstr "Automatisch gemeinsamen Authentifizierungsschlüssel generieren"
 
 msgid "Paste your shared key here"
-msgstr ""
+msgstr "Fügen Sie hier Ihren freigegebenen Schlüssel ein"
 
 # File: src/www/vpn_openvpn_client.php, line: 718
 # File: src/www/vpn_openvpn_client.php.orig, line: 718
@@ -18433,10 +18434,10 @@ msgstr "(Benutzername und Passwort erforderlich)"
 # File: src/www/vpn_openvpn_client.php, line: 756
 # File: src/www/vpn_openvpn_client.php.orig, line: 756
 msgid "if one is required for this connection."
-msgstr ""
+msgstr "falls eine für diese Verbindung erforderlich ist."
 
 msgid "Shared Key"
-msgstr ""
+msgstr "geteilter Schlüssel"
 
 msgid "Automatically generate a shared key"
 msgstr "Automatisch einen gemeinsamen Schlüssel generieren"
@@ -19210,7 +19211,7 @@ msgid ""
 msgstr ""
 
 msgid "Server Bridge DHCP Start"
-msgstr ""
+msgstr "Server Bridge DHCP Start"
 
 msgid ""
 "When using tap mode as a multi-point server, you may optionally supply a "
@@ -19367,7 +19368,7 @@ msgstr "Server löschen"
 # File: src/www/vpn_openvpn_server.php, line: 1749
 # File: src/www/vpn_openvpn_server.php.orig, line: 1749
 msgid "Use a wizard to setup a new server"
-msgstr ""
+msgstr "Verwende den Assistent zum Einrichten eines neuen Servers"
 
 msgid "add a new pppoe instance"
 msgstr "Eine neue PPPoE Instanz hinzufügen"
@@ -19459,7 +19460,7 @@ msgid "NAS IP Address"
 msgstr "NAS IP-Adresse"
 
 msgid "RADIUS server NAS IP Address"
-msgstr ""
+msgstr "RADIUS Server NAS IP Adresse"
 
 msgid "RADIUS Accounting Update"
 msgstr "RADIUS Accounting Aktualisierung"
